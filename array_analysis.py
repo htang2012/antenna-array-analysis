@@ -30,7 +30,8 @@ import pyqtgraph as pg
 
 # pg.setConfigOption('background', 'w')
 # pg.setConfigOption('foreground', 'k')
-QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling, True)
+#QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling, True)
+QtWidgets.QApplication(sys.argv)
 
 
 class MyApp(QtWidgets.QMainWindow):
